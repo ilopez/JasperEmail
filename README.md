@@ -48,9 +48,34 @@ A command line tool to email Jasper Report output as attachments.  This project 
 
 	See http://github.com/ilopez/JasperEmail for further documentation
 
+	
+# Where to Get Help
+Temporarily until I get this project with its own "Issues" page, please message ilopez on github.
+
+
+# Dependencies
+* Java 7
+* commons-cli 1.2
+* commons-io 2.4
+* jasperreports 5.2
+* jasperreports-fonts 4.0
+* javax.mail 1.5.1
+* servlet-api 2.5
+
+# Build Environment
+* Windows 7
+* NetBeans IDE 7.4
 
 
 # Motivations
-
+I originally was going to write an app like this, but I found RunJasperReports by okohll.  I figured in the spirit of opensource I thought that its probably best served to fork the project, and change the code to fit my needs.  I used GitHub fork, changed the code how I thought it should be built and kept the repository clean.  One of my goals was to support any JDBC datasources without having to add additional code.  This was added by jdbcclass and jdbcurl arguments.  I also believe that report generation agruments should be passed through the command prompt or embedded in the JasperReport object and respected, so duplicate code was removed to support the newer formats (XLSX) with less code.
 
 # Contributions
+Found through perusing file headers & comments.
+* GT webMarque LTD
+* Oliver Kohill
+* Bal?zs B?r?ny (Non UTF-8 Encoded Author)
+
+# License
+
+The original license for RunJasperReports was GPL v3, and JasperEmail will continue to be released under GPL v3.
