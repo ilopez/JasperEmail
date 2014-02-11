@@ -7,9 +7,9 @@ A command line tool to email Jasper Report output as attachments.  This project 
 
 **Latest**
 
-[Single JAR w/o Dependencies](http://jasperreports.ilopez.com/latest.zip)
+[Single JAR w/o Dependencies](/latest.zip)
 
-[Shaded JAR w/ Dependencies (JasperReports 5.2)](http://jasperreports.ilopez.com/latest_shaded.zip)
+[Shaded JAR w/ Dependencies (JasperReports 5.2)](/latest_shaded.zip)
 
 
 # 
